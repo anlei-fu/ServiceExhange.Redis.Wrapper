@@ -15,7 +15,7 @@ namespace StackExchange.Redis.Wrapper
         }
 
         /// <summary>
-        /// Use a prefix to classify diffirent  store,avoid key repeat and overlay
+        /// Use a prefix to classify diffirent  store,avoid key repeat and overlay f
         /// </summary>
 
         public  bool Store(string key,object data,TimeSpan? expiry)
